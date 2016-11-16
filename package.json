@@ -1,8 +1,12 @@
 {
   "name": "@danielkalen/phpunserialize",
   "description": "Convert serialized PHP data to a javascript object graph",
-  "version": "1.0.1",
-  "keywords": [ "php", "serialization", "unserialize" ],
+  "version": "1.0.2",
+  "keywords": [
+    "php",
+    "serialization",
+    "unserialize"
+  ],
   "homepage": "https://github.com/bd808/php-unserialize-js",
   "repository": {
     "type": "git",
