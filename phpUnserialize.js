@@ -84,13 +84,7 @@
             , val;
           while (bytes < len) {
             ch = phpstr.charCodeAt(idx + utfLen++);
-            if (ch <= 0x007F) {
-              bytes++;
-            } else if (ch > 0x07FF) {
-              bytes += 3;
-            } else {
-              bytes += 2;
-            }
+            bytes++;
           }
           val = phpstr.substring(idx, idx + utfLen);
           idx += utfLen + 2;
